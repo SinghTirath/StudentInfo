@@ -1,0 +1,52 @@
+
+
+.listItem{
+    border: 1px solid lightgray;
+    list-style-type: none;
+    margin-left: 0px;
+  }
+  
+  
+  label {
+    /* Other styling... */
+    text-align: right;
+    clear: both;
+    float:left;
+  }
+  
+  
+  .leftDiv {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    
+  }
+  
+  .centerDiv {
+    display: inline-block;
+    width: 70%;
+    height: 100%;  
+  }
+
+  .rightDiv{
+    display: inline-block;
+    width:5%;
+    height: 100%;  
+    position:absolute;
+  }
+  
+  
+  .circular_image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color:white;
+    margin-left: 10px;
+  }
+  
+  
+  .info{
+    color:#7E7E7E;
+  }
